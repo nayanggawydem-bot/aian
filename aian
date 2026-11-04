@@ -1,0 +1,65 @@
+print("============================================")
+print("             PYTHON TUTORIAL                ")
+print("============================================")
+print()
+print("WHAT DO YOU WANT TO STUDY")
+print("[1]     INTORDUCTION TO PROGRAMMING")
+print("[2]     BASIC SYNTAX")
+print("[3]     ARITHMETIC OPERATION")
+
+lesson = input("Enter your lesson")
+print()
+
+if lesson == "1":
+    print("welcome to python programming")
+    print("lesson 1: INTRODUCTION TO PRODRAMMING")
+    print("[1] INTRODUCTIONG TO PROGRAMMING")
+    print("[2] BASIC SYNTAX")
+    print("[3] ARTIHMETIC OPERATION")
+    print()
+    lesson = input("Enter lesson number")
+    if lesson == "1":
+        print()
+        print("DIFINIATION:")
+        print("Introduction to programming is the process")
+        print("of learning how to write instructiong")
+        print("that tell a computer that to do")
+        print()
+        print("EXPLANATION:")
+        print("Programming help us solve problem")
+        print("erform calculation using programming")
+        print("language such is Python")
+        print()
+        print("EXAMPLE:")
+        print("A computer program that asks for")
+        print("your name and display a welcome message")
+        print()
+
+    print("===============================")
+    print("quiz 1 for Introduction to programming")
+    print("What is a  programming")
+    print("A Playing games")
+    print("B Giving instruction to a computer")
+    print("C watching a videos")
+
+    answer = input("Your answer").upper()
+    if answer == "B":
+        print("Correct")
+    else:
+        print("Wrong! The correct answer is B")
+
+    print("witch programming languageare we used ")
+    print("A Filipino")
+    print("B Chinese")
+    print("C Espanyol")
+    print("D English")
+    answer= input("Your answer").upper()
+    if answer == "D":
+        print("Correct")
+    else:
+        print("Wrong! The correct answer is D")
+
+    print()
+    print("===============================")
+    print("           QUIZ RESULT         ")
+    print("===============================")
